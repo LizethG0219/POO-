@@ -32,4 +32,22 @@ En seguido, seleccionamos la carpeta del menu de inicio:
 
 ![sadsa](./img/v3.PNG)
 
+Despues, seleccionar las tareas adicionales que desees y dar
+siguiente:
+
+![sadsa](./img/v4.PNG)
+
+Aparecera una ventana donde dice que ya esta listo para
+la instalacion: 
+
+![sadsa](./img/v5.PNG)
+
+Y listo, se estara descargando en unos minutos:
+
+![sadsa](./img/v6.PNG)
+
+Por ultimo, da finalizar a la instalacion:
+
+![sadsa](./img/v7/PNG)
+
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
