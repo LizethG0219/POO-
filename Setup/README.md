@@ -12,7 +12,7 @@ La pagina se ve asi:
 
 ## Instalación y configuración de Visual Studio Code para C#.
 Tenemos que bajar el archivo de instalacion del siguiente 
-[lugar]https://code.visualstudio.com/
+[lugar](https://code.visualstudio.com/)
 Es importante descargar la version de acuerdo a el **sistema
 operativo**
 
