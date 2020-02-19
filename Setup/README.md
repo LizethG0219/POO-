@@ -20,5 +20,14 @@ La pagina se ve asi:
 
 ![sadsa](./img/imgVSC/IV1.PNG)
 
+Aceptar licencia de terminos
+
+![sadsa](./img/v1.PNG)
+
+Despues seleccionar la carpeta de destino
+
+![sadsa](./img/v2.PNG)
+
+
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
