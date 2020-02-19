@@ -18,7 +18,7 @@ operativo**
 
 La pagina se ve asi:
 
-![sadsa](./imgVSC/IV1.PNG)
+![sadsa](./img/imgVSC/IV1.PNG)
 
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
