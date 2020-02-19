@@ -51,3 +51,8 @@ Por ultimo, da finalizar a la instalacion:
 ![sadsa](./img/v7.PNG)
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
+Corroborar que [github](https://desktop.github.com/) 
+este conectado con [visual studio code](https://code.visualstudio.com/),
+y listo: 
+
+![sadsa](./img/git1.PNG)
