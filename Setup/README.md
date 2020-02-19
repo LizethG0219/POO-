@@ -44,7 +44,7 @@ la instalacion:
 
 Y listo, se estara descargando en unos minutos:
 
-![sadsa](./img/v6.PNG)
+![sadsa](./img/V6.PNG)
 
 Por ultimo, da finalizar a la instalacion:
 
