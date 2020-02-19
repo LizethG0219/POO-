@@ -48,6 +48,6 @@ Y listo, se estara descargando en unos minutos:
 
 Por ultimo, da finalizar a la instalacion:
 
-![sadsa](./img/v7/PNG)
+![sadsa](./img/v7.PNG)
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
