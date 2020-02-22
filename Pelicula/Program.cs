@@ -62,9 +62,12 @@ namespace Pelicula
             //p1.director = "Guillermo del Toro";
             //Console.WriteLine("{0}{1}"), "La pelicula es: " + p1.titulo + "El año es: " + p1.año);
             p1.Imprime();
-
-            Console.WriteLine();
-            Console.WriteLine();
+            List <pelicula> peli = new List <pelicula>();
+            peli.Add(new pelicula("La bella y la bestia"));
+            peli.Add(new pelicula("Luz de luna"));
+            peli.Add(new pelicula("En primera plana"));
+            //Console.WriteLine();
+            //Console.WriteLine();
 
             pelicula p2 = new pelicula("La pelicula ganadora: La la land", 2016);
            // p2.setTitulo("La la land");
