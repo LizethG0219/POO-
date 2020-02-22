@@ -43,6 +43,10 @@ namespace Pelicula
          {
              return this.director;
          }
+         public void Imprime()
+         {
+             Console.WriteLine("{0}({1})", this.getTitulo(), this.getAño());
+         }
     }
     class Program
     {
@@ -52,15 +56,20 @@ namespace Pelicula
             pelicula p1 = new pelicula();
             p1.setTitulo("La forma del agua");
             p1.setAño(2018);
-            p1.setPais("Estados Unidos");
-            p1.setDirector("Guillermo del Toro");
-            Console.WriteLine("{0}{1}"),p1.getTitulo() + p1.getAño());
+            p1.titulo ="La forma del agua";
+            p1.año = 2018;
+            p1.pais = "Estados Unidos";
+            p1.director = "Guillermo del Toro";
+            Console.WriteLine("{0}{1}"), "La pelicula es: " + p1.titulo + "El año es: " + p1.año;
+
             pelicula p2 = new pelicula();
             p2.setTitulo("La la land");
             p2.setAño(2016);
-            p2.setPais("Estasdos Unidos");
-            p2.setDirector("Damien Chazelle");
-            Console.WriteLine("{0}{1}"),p2.getTitulo() + p2.getAño());
+            p2.titulo = "Estados Unidos";
+            p2.año = 2016;
+            p2.pais = "Estados Unidos";
+            p2.director = "Damien Chazelle";
+            Console.WriteLine("{0}{1}"), "La pelicula es: " + p2.titulo + "El año es: " + p2.año;;
         }
     }
 }
