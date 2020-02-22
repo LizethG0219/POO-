@@ -43,10 +43,6 @@ namespace Pelicula
          {
              return this.director;
          }
-
-
-
-
     }
     class Program
     {
@@ -60,7 +56,11 @@ namespace Pelicula
             p1.setDirector("Guillermo del Toro");
             Console.WriteLine("{0}{1}"),p1.getTitulo() + p1.getAño());
             pelicula p2 = new pelicula();
-            Console.WriteLine();
+            p2.setTitulo("La la land");
+            p2.setAño(2016);
+            p2.setPais("Estasdos Unidos");
+            p2.setDirector("Damien Chazelle");
+            Console.WriteLine("{0}{1}"),p2.getTitulo() + p2.getAño());
         }
     }
 }
