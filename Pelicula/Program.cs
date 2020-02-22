@@ -11,14 +11,39 @@ namespace Pelicula
         public string director;
         
          //Creacion de los metodos 
-         public pelicula (string tit)
+         public void setTitulo (string tit)
          {
              this.titulo = tit;
          }
-         public int16 setAño ( int16 a)
+         public string getTitulo ()
          {
-            this.
+             return this.titulo;
          }
+         public void setAño ( int16 a)
+         {
+            this.año = a;
+         }
+         public int16 getAño ()
+         {
+             return this.año;
+         }
+         public void setPais( string pa)
+         {
+             this.pais= pa;
+         }
+         public string getPais()
+         {
+             return this.pais;
+         }
+         public void setDirector(string dir)
+         {
+             this.director= dir;
+         }
+         public string getDirector()
+         {
+             return this.director;
+         }
+
 
 
 
@@ -29,6 +54,11 @@ namespace Pelicula
         {
             //Creacion de los objetos
             pelicula p1 = new pelicula();
+            p1.setTitulo("La forma del agua");
+            p1.setAño(2018);
+            p1.setPais("Estados Unidos");
+            p1.setDirector("Guillermo del Toro");
+            Console.WriteLine("{0}{1}"),p1.getTitulo() + p1.getAño());
             pelicula p2 = new pelicula();
             Console.WriteLine();
         }
