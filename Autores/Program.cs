@@ -59,6 +59,7 @@ namespace Autores
         {
             actores = actor;
             nacimiento = nac;
+            
         }
 
     }
