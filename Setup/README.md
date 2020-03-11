@@ -59,7 +59,7 @@ y listo:
 
 # Ejercicio de UML
 1.Agrega la cardinalidad o multiplicidad para las asociaciones del siguiente diagrama de clases, justifica tus decisiones:
-![sadsa](./img/card.PNG)
+![sadsa](./img/card.png)
 
 2.Completa los tipos de asociación (Agregación y Composición) y multiplicidad que hay entre las clases siguientes y explica porque es de ese tipo.
-![sadsa](./img/agg.PNG)
+![sadsa](./img/agg.png)
