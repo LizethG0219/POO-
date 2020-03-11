@@ -59,7 +59,7 @@ namespace Autores
         {
             actores = actor;
             nacimiento = nac;
-            
+
         }
 
     }
@@ -67,7 +67,16 @@ namespace Autores
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List <peliculas> peli = new List <pelculas>();
+            peli. Add (new peliculas("Scarlett Johansson"));
+            peli. Add(new peliculas("Cecilia Hawkins"));
+            
+
+            peliculas p1= new peliculas("Avangers:Endgame", 2019,"Estados Unidos" );
+            p1.imprime();
+            peliculas p2 = new peliculas("La forma del agua", 2017, " Estados Unidos");
+            p2.imprime();
+
         }
     }
 }
