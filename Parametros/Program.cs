@@ -6,12 +6,12 @@ namespace Parametros
     {
         public static void Suma(int a)
         {
-            a = a + 2;
+            a = a * 2;
             Console.WriteLine("El valor de a es: " + a);
         }
         public static void SumaTres(in int  a, out int b, in int c)
         {
-            b = a + c;
+            b = a * c;
 
         }
     }
@@ -23,7 +23,7 @@ namespace Parametros
             parametros.Suma(a);
             Console.WriteLine("Valor de a es: " +  a);
             parametros.SumaTres(in a, out b, in c);
-            Console.WriteLine("La suma es: " + b);
+            Console.WriteLine("La multiplicación es: " + b);
         }
         
     }
