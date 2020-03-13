@@ -25,5 +25,6 @@ namespace Parametros
             parametros.SumaTres(in a, out b, in c);
             Console.WriteLine("Valor total es: " + b);
         }
+        
     }
 }
