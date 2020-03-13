@@ -20,10 +20,10 @@ namespace Parametros
         static void Main(string[] args)
         {
             int a = 6; int b; int c = 15;
-            parametros.Suma(ref a);
+            parametros.Suma(a);
             Console.WriteLine("Valor de a es: " +  a);
             parametros.SumaTres(in a, out b, in c);
-            Console.WriteLine("Valor total es: " + b);
+            Console.WriteLine("La suma es: " + b);
         }
         
     }
