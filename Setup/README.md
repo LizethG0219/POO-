@@ -57,6 +57,8 @@ y listo:
 
 ![sadsa](./img/git1.PNG)
 
+
+# Actividad 2 
 # Ejercicio de UML
 1.Agrega la cardinalidad o multiplicidad para las asociaciones del siguiente diagrama de clases, justifica tus decisiones:
 ![sadsa](./img/card.png)
