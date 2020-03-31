@@ -40,7 +40,7 @@ namespace duracion
             segundos=(int)(s-(horas*3600)-(minutos*60));
         }
 
-        public void imprime T()
+        public void imprimeT()
         {
             Console.WriteLine("{0}:{1}:{2} hrs", horas, minutos, segundos);
         }
