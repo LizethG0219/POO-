@@ -23,7 +23,7 @@ namespace domino
         {
             Domino A = new Domino(2, 0);
             Domino B = new domino (5, 3);
-            Console.WriteLine("La suma del domino es: "( A+ B));
+            Console.WriteLine("La suma del domino es: "( A + B));
         }
     }
 }
