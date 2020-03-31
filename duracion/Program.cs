@@ -44,7 +44,7 @@ namespace duracion
         {
             Console.WriteLine("{0}:{1}:{2} hrs", horas, minutos, segundos);
         }
-        public static Duracion operator +(Duracion hms, Duraciont)
+        public static Duracion operator +(Duracion hms, Duracion t)
         {
             int s= 0;
             s=((hms.horas+ T.horas)*3600)+((hms.minutos + T.minutos)*60) + (hms.segundos + T.segundos);
